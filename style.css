@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family= Sarala & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #F23030 16.62%, #F28705 85.61%) ;
+} 
+
+.cabecalho {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:space-around ;
+}
+
+.img-cabecalho{
+    height: 72px;
+}
+
+.menu-cabecalho{
+    display: flex;
+    gap: 32px;
+}
+
+.item-cabecalho{
+    color: rgb(255, 255, 255);
+    font-family: 'Sarala', sans-serif;
+    font-size: 14px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+}
+
+.conteudo-primario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.conteudo-escrito{
+display: flex;
+flex-direction: column;
+gap: 32px;
+
+}
+
+.titulo-conteudo-primario{
+    font-family: 'Nerko One', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: wheat;
+}
+
+.titulo2-conteudo-primario{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.botao{
+    background-color: antiquewhite;
+    width: 180px;
+    height: 60px ;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.459);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: rgb(5, 5, 5);
+}
+
+.botao:hover{
+    background-color: #267365;
+}
+
+.img-conteudo-principal{
+    height: 330px;
+    margin-top: 50px;
+}
+
+.conteudo-sucundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.titulo-conteudo-secundario{
+    border-top:  0.4px solid rgb(248, 197, 255);padding-top: 48px;
+    font-family: 'Nerko One', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: antiquewhite;
+    margin-bottom: 16px;
+}
+
+.paragarfo-conteudo-secundario{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: antiquewhite;
+
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid rgb(248, 197, 255);
+}
+
+.img-rodape{
+    right: 48px;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
