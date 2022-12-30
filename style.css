@@ -36,6 +36,11 @@ justify-content:space-around ;
     font-size: 14px;
 }
 
+.item-cabecalho:hover{
+    text-decoration: underline;
+   color: #267365;
+}
+
 .conteudo{
     margin-bottom: 48px;
     border-top: 0.4px solid white;
